@@ -13,7 +13,7 @@
   }
 
   .d-navmenu-item.toplevel.expanded {
-    border-left: 4px solid #19aa8d;
+    /*border-left: 4px solid #19aa8d;*/
   }
 
   .d-navmenu-item.expanded {
@@ -61,9 +61,9 @@
     margin-top: 3px;
   }
 
-  .d-navmenu-item-label:hover {
-    font-weight: 600;
-    color: #5b5d5f;
+  .d-navmenu-item-label:hover a{
+    /*font-weight: 600;*/
+    color: #5d8399;
   }
 
   .d-navmenu-item-label:hover .d-icon {

@@ -99,7 +99,7 @@
   overflow: hidden;
   margin-bottom: 20px;
   border: 2px dashed #8E8383;
-  padding: 20px 0 0 20px;
+  /*padding: 20px 0 0 20px;*/
 }
 .upload-files-tip {
   font-size: 40px;
@@ -147,7 +147,7 @@
   color: #666;
 }
 .upload-result-title span em {
-  color: #FF1C1C;
+  color: #e55339;
   font-style: normal;
 }
 .upload-result table {

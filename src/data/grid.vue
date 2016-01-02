@@ -10,6 +10,8 @@
     border: 1px solid #e7eaec;
     font-size: 14px;
     border-radius: 3px;
+    padding: 20px 35px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   }
 
   .hidden-columns {
@@ -26,7 +28,7 @@
   .d-grid td {
     height: 20px;
     max-width: 250px;
-    padding: 2px;
+    padding: 5px;
     box-sizing: border-box;
     overflow: hidden;
     line-height: 28px;
@@ -41,7 +43,6 @@
   }
 
   .d-grid th {
-    border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
   }
 
@@ -88,7 +89,6 @@
   .d-grid td,
   .d-grid th {
     position: relative;
-    border-right: 1px solid #e7eaec;
   }
 
   /** TODO */
@@ -172,8 +172,8 @@
     background-color: #fff;
   }
 
-  .d-grid tr:nth-child(2n) {
-    background: #f9f9f9;
+  .d-grid tr:hover {
+    background: #f5f5f5;
   }
 
   .d-grid tr.current-row {

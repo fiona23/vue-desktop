@@ -10,7 +10,7 @@
     display: block;
     height: 30px;
     line-height: 30px;
-    padding: 0 20px;
+    padding: 0 12px;
     font-size: 13px;
     transition: .2s;
     color: #333;

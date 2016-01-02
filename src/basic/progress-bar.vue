@@ -21,28 +21,25 @@
     width: 100%;
     display: table-cell;
     vertical-align: middle;
-    border-radius: 3px;
     background-color: #eee;
-  }
-
-  .progress .bar .active-bar {
-    border-radius: 3px;
+    border-radius: 2px;
+    overflow: hidden;
   }
 
   .progress .bar.success .active-bar {
-    background-color: #87d068;
+    background-color: #5f9c74;
   }
 
   .progress .bar.error .active-bar {
-    background-color: #f60;
+    background-color: #e55339;
   }
 
   .progress .bar.info .active-bar {
-    background-color: #0089dc;
+    background-color: #318cc1;
   }
 
   .progress .bar.warning .active-bar {
-    background-color: #ffdb35;
+    background-color: #e88f31;
   }
 
   .progress span {

@@ -10,6 +10,7 @@
   .dropdown {
     position: relative;
     box-sizing: border-box;
+    border: none;
   }
 
   .dropdown .dropdown-icon {
@@ -40,9 +41,10 @@
     display: block;
     width: max-content;
     border: solid 1px #ddd;
-    border-radius: 3px;
+    border-radius: 2px;
     box-shadow: 0 0 2px #ddd;
     background-color: #fff;
+    text-align: left;
   }
 </style>
 
