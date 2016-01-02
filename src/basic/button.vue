@@ -35,13 +35,13 @@
 
   .btn-primary {
     color: #fff;
-    background-color: #1ab394;
-    border-color: #1ab394;
+    background-color: #f06292;
+    border-color: #EC407A;
   }
 
   .btn.btn-primary:hover {
-    background-color: #18a689;
-    border-color: #18a689;
+    background-color: #EC407A;
+    border-color: #EC407A;
   }
 
   .btn.btn-primary:active {
@@ -50,7 +50,7 @@
 
   .btn-success {
     color: #fff;
-    background-color: #1c84c6;
+    background-color: #5f9c74;
     border-color: #1c84c6;
   }
 
@@ -65,7 +65,7 @@
 
   .btn-info {
     color: #fff;
-    background-color: #23c6c8;
+    background-color: #318cc1;
     border-color: #23c6c8;
   }
 
@@ -80,7 +80,7 @@
 
   .btn-warning {
     color: #fff;
-    background-color: #f8ac59;
+    background-color: #e88f31;
     border-color: #f8ac59;
   }
 
@@ -95,7 +95,7 @@
 
   .btn-danger {
     color: #fff;
-    background-color: #ed5565;
+    background-color: #e55339;
     border-color: #ed5565;
   }
 
