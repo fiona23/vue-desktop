@@ -12,6 +12,7 @@
 <style>
   .accordion-section {
     margin-top: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 1px -2px rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
   }
 
   .accordion-section:first-child {
@@ -64,18 +65,18 @@
   .accordion-default .accordion-section {
     border: solid 1px #d2d2d2;
     border-bottom-width: 0;
-    border-radius: 3px;
+    border-radius: 2px;
   }
 
   .accordion-default .accordion-header {
-    border-radius: 3px;
+    border-radius: 2px;
     border-bottom: solid 1px #d2d2d2;
     background-color: #f5f5f5;
   }
 
   .accordion-default .accordion-content-wrap {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
   }
 
   .accordion-default .accordion-section.active .accordion-header {

@@ -211,6 +211,14 @@
     top: 0;
     padding: 5px;
     z-index: 100;
+    background: none;
+    border: none;
+    color: #fff;
+    box-shadow: none;
+  }
+
+  .d-tab-button:hover {
+    color: #efed59;
   }
 
   .d-tab-prev {
@@ -228,6 +236,7 @@
     width: max-content;
     display: inline-block;
     transition: .2s;
+    color: #fff;
   }
 
   .d-tabs-content {
@@ -237,15 +246,13 @@
 
   .d-tab {
     display: inline-block;
-    background: none;
     border: none;
-    color: #676a6c;
     padding: 8px 10px;
     border-bottom: 0;
     cursor: pointer;
     font-size: 14px;
     min-width: 100px;
-    border-radius: 5px 5px 0 0;
+    background-color: #577383;
   }
 
   .placement-bottom .d-tab {
@@ -254,7 +261,8 @@
 
   .placement-bottom .d-tab.active {
     border-bottom-width: 1px;
-    border-bottom-color: #e7eaec;
+    border-bottom-color: #f86ca4;
+    /*border-bottom: 2px solid #f86ca4;*/
     /* TODO */
     margin-top: -1px;
   }
@@ -264,11 +272,9 @@
   }
 
   .d-tab.active {
-    border: 1px solid #e7eaec;
-    border-bottom-color: transparent;
-    background: #fff;
-    color: #555555;
-    text-decoration: none;
+    /*color: #555555;*/
+    /*border-bottom: 2px solid #f86ca4;*/
+    /*margin-top: -2px;*/
   }
 
   .d-tab.disabled {
@@ -297,12 +303,12 @@
     text-align: right;
   }
 
-  .d-tab:hover .d-tab-icon,
+  .-tab:hover .d-tab-icon,
   .d-tab:hover .d-tab-close {
     color: #a7b1c2;
   }
 
   .d-tab + .d-tab {
-    margin: 0 0 0 1px;
+    /*margin: 0 0 0 1px;*/
   }
 </style>

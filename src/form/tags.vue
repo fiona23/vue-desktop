@@ -31,7 +31,7 @@
     display: block;
     width: 100%;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 2px;
     border: solid 1px #e5e6e7;
     padding: 0 10px 5px;
     background-color: #fff;
